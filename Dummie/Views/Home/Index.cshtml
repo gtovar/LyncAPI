@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@section Scripts {
+    @Scripts.Render("~/bundles/application")
+}
+<div id="sandbox">
+    <div class="controls">
+        <h3>Domain</h3>
+        <input data-enterbinding="sandboxSignin" class="signinbox" id="domain" />
+    </div>
+    <div class="controls">
+        <h3>Token</h3>
+        <input data-enterbinding="sandboxSignin" class="signinbox" id="token" />
+    </div>
+    <div class="controls">
+        <a id="sandboxSignin" class="login">Login</a>
+    </div>
+</div>
+<div class="frame" id="container"></div>
+<div class="modal"></div>
