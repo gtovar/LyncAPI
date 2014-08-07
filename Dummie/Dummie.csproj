@@ -197,16 +197,26 @@
     <Content Include="Content\themes\bootstrap\javascripts\bootstrap.min.js" />
     <Content Include="Content\themes\bootstrap\javascripts\jquery-1.11.1.js" />
     <Content Include="Content\themes\bootstrap\javascripts\jquery-1.11.1.min.js" />
-    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap-theme.css" />
-    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap-theme.min.css" />
+    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap-theme.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap-theme.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\themes\bootstrap\stylesheets\bootstrap.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap.min.css" />
+    <Content Include="Content\themes\bootstrap\stylesheets\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Content\themes\bootstrap\stylesheets\font-awesome\font-awesome.css" />
     <Content Include="Content\themes\bootstrap\stylesheets\font-awesome\font-awesome.min.css" />
-    <Content Include="Content\themes\bootstrap\stylesheets\Main.css" />
-    <Content Include="Content\themes\bootstrap\stylesheets\Index.css" />
+    <Content Include="Content\themes\bootstrap\stylesheets\Main.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\themes\bootstrap\stylesheets\Index.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\themes\bootstrap\fonts\glyphicons-halflings-regular.eot" />
