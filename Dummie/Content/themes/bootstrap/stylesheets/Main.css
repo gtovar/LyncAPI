@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url("../images/bg.jpg")
+    background-image:url('bootstrap/images/bg.jpg')
 }
 
 footer {
@@ -8,3 +8,5 @@ footer {
     width: 100%;
     padding:20px;
 }
+
+
