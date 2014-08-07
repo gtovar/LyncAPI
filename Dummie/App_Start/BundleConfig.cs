@@ -22,17 +22,9 @@ namespace Dummie
                         "~/Scripts/Events.js",
                         "~/Scripts/Index.js"));
 
-                        
-
-            bundles.Add(new ScriptBundle("~/bundles/transport").Include(
-                        "~/Scripts/tranport-{version}.js"));
-
-            bundles.Add(new ScriptBundle("~/bundles/autodiscovery").Include(
-                        "~/Scripts/autodiscovery-{version}.js"));
-
-            bundles.Add(new ScriptBundle("~/bundles/authentication").Include(
-                            "~/Scripts/authentication-{version}.js"));
-
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                        "~/Content/themes/bootstrap/javascripts/jquery-{version}.js",
+                        "~/Content/themes/bootstrap/javascripts/bootstrap.js"));
             // END LYNC API
 
 
@@ -68,6 +60,20 @@ namespace Dummie
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new StyleBundle("~/Content/themes/bootstrap").Include(
+                       "~/Content/themes/bootstrap/stylesheets/font-awesome/font-awesome.css",
+                       "~/Content/themes/bootstrap/stylesheets/bootstrap.css",
+                       "~/Content/themes/bootstrap/stylesheets/bootstrap-theme.css",
+                       "~/Content/themes/bootstrap/stylesheets/Main.css"));
+
+            bundles.Add(new StyleBundle("~/Content/themes/index").Include(
+                        "~/Content/themes/bootstrap/stylesheets/Index.css"));
+
         }
+
+           
+
+
     }
 }

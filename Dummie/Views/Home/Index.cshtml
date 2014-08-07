@@ -1,13 +1,16 @@
-﻿@{
-    ViewBag.Title = "Home";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
+﻿
 
+<div class="jumbotron">
+    <div class="container">
+        <h1>Hello, world!</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a role="button" class="btn btn-primary btn-lg">Learn more »</a></p>
+    </div>
+</div>
+
+
+<div class="main" id="sandbox">
 <h2>Index</h2>
-@section Scripts {
-    @Scripts.Render("~/bundles/application")
-}
-<div id="sandbox">
     <div class="controls">
         <h3>Domain</h3>
         <input data-enterbinding="sandboxSignin" class="signinbox" id="domain" />
@@ -22,3 +25,12 @@
 </div>
 <div class="frame" id="container"></div>
 <div class="modal"></div>
+
+
+
+
+
+@{ViewBag.Title = "Home";}
+
+@section Styles{ @Styles.Render("~/Content/themes/index")}
+
