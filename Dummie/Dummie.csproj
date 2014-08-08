@@ -221,6 +221,7 @@
     <Content Include="Content\themes\bootstrap\fonts\font-awesome\fontawesome-webfont.ttf" />
     <Content Include="Content\themes\bootstrap\fonts\font-awesome\fontawesome-webfont.woff" />
     <Content Include="Content\themes\bootstrap\fonts\font-awesome\FontAwesome.otf" />
+    <Content Include="Content\themes\bootstrap\stylesheets\Main.min.css" />
     <None Include="Properties\PublishProfiles\Test.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\Authentication.js" />
